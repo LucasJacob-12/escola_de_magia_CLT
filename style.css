@@ -7,16 +7,13 @@ header{
     z-index: 100;
     position: sticky;
     top: -13px;;
+    width: 100%;
 }
-.container{
-    max-width: 1326px;
-    /* O primeiro digito é para margin vretical do elemento q esta a 0px, enquanto o segundo é para margin horizontal*/}
-
 nav {
     background-color: rgba(11, 11, 11, 0.925);
     padding: 10px;
-    margin-left: -15px;
-    margin-right: -40px;
+    /* margin-left: -15px;
+    margin-right: -40px; */
 }
 
 nav ul{
@@ -119,7 +116,7 @@ hr {
         background: linear-gradient(to right,rgba(34, 0, 31, 1)  20%, rgba(44,24,26,0)), url("https://cdn.leonardo.ai/users/db700bac-7fd3-4be8-84ee-d7ca10f56059/generations/1f161d3b-9280-6f00-866b-774e103b857a/gemini-2.5-flash-image_Use_the_provided_wizard_image_as_the_main_subject._Preserve_the_face_hairstyle_c-0.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 650px;
     color: white;
     display: flex;
     align-items: center;
@@ -300,10 +297,12 @@ hr{
     rgba(0, 123, 255, 0)    /* transparente */)
 }
 .views{
-    text-align: center;
+
 }
 .views h1{
-        padding-bottom: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .feedback{
     background-color: rgb(226, 226, 226);
@@ -314,6 +313,7 @@ hr{
     margin-left:2rem ;
      overflow: hidden;  
      margin-bottom: 10px;
+     align-items: start;
 }
 .feedback p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -330,11 +330,27 @@ hr{
     padding: 7px 7px; 
     text-align: start;
 }
-.logo{
-    display: flex;
+.feedback3{
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+    min-width: 280px;
+    max-width: 600px;
+    margin-left:2rem ;
+     overflow: hidden;  
+     margin-bottom: 10px;
+     align-items: start;
 }
-.logo img{
-    border-radius: 50%;
+.feedback4{
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+    min-width: 280px;
+    max-width: 600px;
+    margin-left:2rem ;
+     overflow: hidden;  
+     margin-bottom: 10px;
+     align-items: start;
 }
 .img-antes{
     width: 265px;
@@ -344,6 +360,66 @@ hr{
 }
 .img-dps{
     width: 100px;
+    border-radius: 3px;
+}
+.img-antes-rabos{
+    width: 125px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-rabos{
+    width: 118px;
+    border-radius: 3px;
+}
+.img-antes-mimi{
+    width: 115px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-mimi{
+    width: 107px;
+    border-radius: 3px;
+}
+.img-antes-gand{
+    width: 200px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-gand{
+    width: 145px;
+    border-radius: 3px;
+}
+.img-antes-merlin{
+    width: 145px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-merlin{
+    width: 240px;
+    border-radius: 3px;
+}
+.img-antes-dava{
+    width: 300px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-dava{
+    width: 200px;
+    border-radius: 3px;
+}
+.img-antes-mago{
+    width: 125px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.img-dps-mago{
+    width: 125px;
     border-radius: 3px;
 }
 .feedback2{
@@ -368,6 +444,50 @@ hr{
     padding: 7px 7px; 
     text-align: start;
 }
+.view1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding-left: 8rem ;
+
+}
+.view2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.view3{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding-left: 8rem ;
+
+}
+.view4{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 1rem ;
+}
+.view5{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 1rem ;
+}
+
 
 .caixa{
     height: 700px;
