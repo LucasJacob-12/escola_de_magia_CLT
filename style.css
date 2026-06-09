@@ -303,7 +303,12 @@ hr{
     rgba(0, 123, 255, 0)    /* transparente */)
 }
 .views{
-
+    background: linear-gradient(
+        180deg,
+        #160029 0%,
+        #5f1f97 35%,
+        #160029 100%
+    );
 }
 .views h1{
     padding-bottom: 17px;
@@ -313,7 +318,7 @@ hr{
 .feedback{
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     min-width: 280px;
     max-width: 400px;
     margin-left:2rem ;
@@ -431,7 +436,7 @@ hr{
 .feedback2{
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     min-width: 280px;
     max-width: 400px;
     margin-left:2rem ;
@@ -499,8 +504,8 @@ hr{
     position: absolute;
     transform: translate(900px, -125px);
     width: 300px;
+    margin-left: 5rem;
 }
-
 
 .sobre-container-invertido {
     display: flex;
@@ -555,8 +560,7 @@ hr{
 
 
 footer{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
     background-image: url("imagens/fundo.png");
     background-size: cover;
     background-position: center;
