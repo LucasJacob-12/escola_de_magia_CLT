@@ -29,6 +29,12 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #d5d5d5;
 }
 
 hr {
@@ -471,6 +477,7 @@ hr{
     padding-left: 8rem ;
 
 }
+
 .view4{
     display:flex;
     gap:1rem;
@@ -488,7 +495,133 @@ hr{
     padding-left: 1rem ;
 }
 
+.img-lateral{
+    position: absolute;
+    transform: translate(900px, -125px);
+    width: 300px;
+}
 
-.caixa{
-    height: 700px;
+
+.sobre-container-invertido {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 80px;
+}
+
+.sobre-container-invertido img {
+    order: 0;
+    width: 300px;
+    height: auto;
+}
+
+.sobre-container-invertido .sobre-texto {
+    order: 1;
+}
+
+.sobre-container-invertido p{
+    font-size: 19px;
+}
+
+.sobre-container-invertido h2{
+    font-size: 40px;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+    padding: 60px 80px; 
+}
+
+.sobre-container p{
+    font-size: 19px;
+}
+
+.sobre-container h2{
+    font-size: 40px;
+}
+
+.sobre-texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+.sobre-container img {
+    width: 500px;
+    height: auto;
+}
+
+
+
+footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("imagens/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:40px;
+    padding:50px 80px 20px;
+}
+
+.footer-col{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+.footer-col h3{
+    color:#f4d28c;
+    margin-bottom:10px;
+}
+
+.footer-col a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col a:hover{
+    color: #d5d5d5;
+    text-decoration: underline;
+}
+
+.col1 a{
+    font-family:monospace;
+}
+
+.redes img {
+    width: 22px;
+    margin-right: 22px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-Voltar {
+    border:1px solid #f4d28c;
+    color:#fffffa;
+    padding:12px 24px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.btn-Voltar img{
+    width:15px;
+    transform: translateY(2px);
+    margin-right:8px;  
+}
+
+.direitos {
+    width: 100%;
+    text-align: center;
+    background: #f4d28c;
+    color: #05060d;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: bold;
 }
